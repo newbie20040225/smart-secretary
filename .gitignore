@@ -1,0 +1,22 @@
+# ---- 密钥与本地配置（切勿提交）----
+.env
+.env.local
+
+# ---- 运行产物 ----
+outputs/
+logs/
+*.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
